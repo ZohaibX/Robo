@@ -5,26 +5,27 @@ import Card from "./components/card/card";
 import SearchBox from "./components/searchBox/searchBox";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import {
+  Connect,
+  mapDispatchToProps,
+  mapStateToProps,
+} from "./redux/4-connect";
+import { connect } from "react-redux";
 
-function App() {
-  const [searchInput, setSearchInput] = useState("");
-  const [robots, setRobots] = useState([]);
+const App = (props) => {
+  // const [searchInput, setSearchInput] = useState(""); now we'll use redux here
+
+  const { searchField, robots, isPending, error } = props;
+  const { onSearchChange, onRequestRobots } = props;
 
   useEffect(() => {
-    const getRobots = async () => {
-      const { data } = await axios.get(
-        "http://jsonplaceholder.typicode.com/users"
-      );
-      setRobots(data);
-    };
-    getRobots();
-    // setRobots(myRobots);
+    onRequestRobots();
   }, []);
 
   return (
     <div className="tc">
       <h1>RoboFriends</h1>
-      <SearchBox setSearchInput={setSearchInput} />
+      <SearchBox setSearchInput={onSearchChange} />
       <div
         style={{
           overflowY: "scroll",
@@ -32,10 +33,10 @@ function App() {
           height: "500px",
         }}
       >
-        <Card Robots={robots} searchInput={searchInput} />
+        <Card Robots={robots} searchInput={searchField} />
       </div>
     </div>
   );
-}
+};
 
-export default App;
+export default Connect(App);
