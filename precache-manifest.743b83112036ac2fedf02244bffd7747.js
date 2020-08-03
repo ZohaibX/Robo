@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1d5255ef36056e43f2f4acce71c76ec0",
+    "revision": "102a9064945132072e556b876fd9edce",
     "url": "/Robo/index.html"
   },
   {
-    "revision": "a74c31f75f706c6647a4",
+    "revision": "cf199f9225f137294cb7",
     "url": "/Robo/static/css/2.ac9578f2.chunk.css"
   },
   {
-    "revision": "32e4a7072ea836bb1482",
+    "revision": "f2c8d1bee8caee4dbf6f",
     "url": "/Robo/static/css/main.d5e50bca.chunk.css"
   },
   {
-    "revision": "a74c31f75f706c6647a4",
-    "url": "/Robo/static/js/2.3749e081.chunk.js"
+    "revision": "cf199f9225f137294cb7",
+    "url": "/Robo/static/js/2.fd3b7c41.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Robo/static/js/2.3749e081.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/Robo/static/js/2.fd3b7c41.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32e4a7072ea836bb1482",
-    "url": "/Robo/static/js/main.53d10b14.chunk.js"
+    "revision": "f2c8d1bee8caee4dbf6f",
+    "url": "/Robo/static/js/main.e4b44319.chunk.js"
   },
   {
     "revision": "a8d20f1550648bc96066",
