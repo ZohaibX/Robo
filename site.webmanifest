@@ -4,7 +4,8 @@
   "icons": [{
       "src": "/Robo/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/Robo/android-chrome-256x256.png",
