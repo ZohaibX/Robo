@@ -1,6 +1,7 @@
 import React from "react";
 
 const SearchBox = ({ setSearchInput }) => {
+  console.log("Search");
   return (
     <div className="pa2">
       <input

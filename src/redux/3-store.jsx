@@ -9,7 +9,7 @@ const logger = createLogger();
 
 const store = createStore(
   rootReducer,
-  composeWithDevTools(applyMiddleware(thunkMiddleware, logger))
+  composeWithDevTools(applyMiddleware(thunkMiddleware /*logger*/))
 );
 // logger is for console
 

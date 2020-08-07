@@ -1,3 +1,6 @@
+//? IDEA
+//! Always import the components which are to be shown on the main page ..
+//! All other components must be imported from React.lazy()
 import React from "react";
 import "./css/main.css";
 import Card from "./components/card/card";
@@ -11,6 +14,7 @@ import {
   mapStateToProps,
 } from "./redux/4-connect";
 import { connect } from "react-redux";
+import Header from "./components/Header/header";
 
 const App = (props) => {
   // const [searchInput, setSearchInput] = useState(""); now we'll use redux here
@@ -24,7 +28,7 @@ const App = (props) => {
 
   return (
     <div className="tc">
-      <h1>RoboFriends</h1>
+      <Header />
       <SearchBox setSearchInput={onSearchChange} />
       <div
         style={{

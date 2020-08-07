@@ -7,6 +7,7 @@ const Card = ({ Robots, searchInput }) => {
     return robots.name.toLowerCase().includes(searchInput.toLowerCase()); // we are not using startsWith here bcoz includes is better
   });
 
+  console.log("Cards");
   return (
     <div className="">
       {filteredRobots.map((robot) => (
@@ -14,7 +15,7 @@ const Card = ({ Robots, searchInput }) => {
           key={robot.id}
           className="bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5"
         >
-          <img src={`https://robohash.org/${robot.id}`} alt="" />
+          <img src={`https://robohash.org/${robot.id}?size=200x200`} alt="" />
           <div className="">
             <h2>{robot.name}</h2>
             <p>{robot.email}</p>
