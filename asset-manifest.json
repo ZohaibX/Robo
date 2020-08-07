@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Robo/static/css/main.d5e50bca.chunk.css",
-    "main.js": "/Robo/static/js/main.0a8a19d9.chunk.js",
-    "main.js.map": "/Robo/static/js/main.0a8a19d9.chunk.js.map",
+    "main.js": "/Robo/static/js/main.f989b5df.chunk.js",
+    "main.js.map": "/Robo/static/js/main.f989b5df.chunk.js.map",
     "runtime-main.js": "/Robo/static/js/runtime-main.61bfa22b.js",
     "runtime-main.js.map": "/Robo/static/js/runtime-main.61bfa22b.js.map",
     "static/css/2.ac9578f2.chunk.css": "/Robo/static/css/2.ac9578f2.chunk.css",
     "static/js/2.091448a2.chunk.js": "/Robo/static/js/2.091448a2.chunk.js",
     "static/js/2.091448a2.chunk.js.map": "/Robo/static/js/2.091448a2.chunk.js.map",
     "index.html": "/Robo/index.html",
-    "precache-manifest.e23e2ce25ba8fbda1414e40a38793b6d.js": "/Robo/precache-manifest.e23e2ce25ba8fbda1414e40a38793b6d.js",
+    "precache-manifest.e4aa1dc135a13ae21a4949bd48fad41c.js": "/Robo/precache-manifest.e4aa1dc135a13ae21a4949bd48fad41c.js",
     "service-worker.js": "/Robo/service-worker.js",
     "static/css/2.ac9578f2.chunk.css.map": "/Robo/static/css/2.ac9578f2.chunk.css.map",
     "static/css/main.d5e50bca.chunk.css.map": "/Robo/static/css/main.d5e50bca.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.ac9578f2.chunk.css",
     "static/js/2.091448a2.chunk.js",
     "static/css/main.d5e50bca.chunk.css",
-    "static/js/main.0a8a19d9.chunk.js"
+    "static/js/main.f989b5df.chunk.js"
   ]
 }
