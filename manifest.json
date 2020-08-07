@@ -7,13 +7,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "android-chrome-192x192.png",
+      "src": "/Robo/android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192",
       "purpose": "maskable"
     },
     {
-      "src": "android-chrome-256x256.png",
+      "src": "/Robo/android-chrome-256x256.png",
       "type": "image/png",
       "sizes": "512x512"
     }
