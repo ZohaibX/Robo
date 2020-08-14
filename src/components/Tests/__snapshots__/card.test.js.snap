@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render card components 1`] = `
+<div
+  className=""
+>
+  <div
+    className="bg-light-green dib br3  ma2 grow bw2 shadow-5"
+  >
+    <img
+      alt=""
+      src="https://robohash.org/1?size=200x200"
+    />
+    <div
+      className=""
+    >
+      <h2>
+        zohaib butt
+      </h2>
+      <p>
+        111
+      </p>
+    </div>
+  </div>
+  <div
+    className="bg-light-green dib br3  ma2 grow bw2 shadow-5"
+  >
+    <img
+      alt=""
+      src="https://robohash.org/5?size=200x200"
+    />
+    <div
+      className=""
+    >
+      <h2>
+        Muzi butt
+      </h2>
+      <p>
+        111
+      </p>
+    </div>
+  </div>
+  <div
+    className="bg-light-green dib br3  ma2 grow bw2 shadow-5"
+  >
+    <img
+      alt=""
+      src="https://robohash.org/3?size=200x200"
+    />
+    <div
+      className=""
+    >
+      <h2>
+        Muzi butt
+      </h2>
+      <p>
+        111
+      </p>
+    </div>
+  </div>
+  <div
+    className="bg-light-green dib br3  ma2 grow bw2 shadow-5"
+  >
+    <img
+      alt=""
+      src="https://robohash.org/2?size=200x200"
+    />
+    <div
+      className=""
+    >
+      <h2>
+        Muzi butt
+      </h2>
+      <p>
+        111
+      </p>
+    </div>
+  </div>
+  <div
+    className="bg-light-green dib br3  ma2 grow bw2 shadow-5"
+  >
+    <img
+      alt=""
+      src="https://robohash.org/4?size=200x200"
+    />
+    <div
+      className=""
+    >
+      <h2>
+        bablu butt
+      </h2>
+      <p>
+        111
+      </p>
+    </div>
+  </div>
+</div>
+`;

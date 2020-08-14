@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders main page without crashing 1`] = `
+<div>
+  <h1
+    id="h1"
+  >
+    RoboFriends
+  </h1>
+  <div
+    className="pa2"
+  >
+    <input
+      className="pa3 ba b--green bg-lightest-blue"
+      id=""
+      name="search"
+      onChange={[Function]}
+      placeholder="Search Your Friend"
+      type="search"
+    />
+  </div>
+  <div
+    style={
+      Object {
+        "border": "1px solid black",
+        "height": "500px",
+        "overflowY": "scroll",
+      }
+    }
+  >
+    <div
+      className=""
+    />
+  </div>
+</div>
+`;
