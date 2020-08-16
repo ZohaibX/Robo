@@ -7,14 +7,14 @@ import {
 import axios from "axios";
 
 // Setting search text in a state
-export const setSearchField = (text) => ({
+export const setSearchField = (text: string): object => ({
   // we wanna recieve text here
   type: CHANGE_SEARCH_FIELD,
   payload: text,
 });
 
 // async action function
-export const requestRobots = async (dispatch) => {
+export const requestRobots = async (dispatch: any) => {
   dispatch({ type: REQUEST_ROBOTS_PENDING });
   try {
     const { data } = await axios.get(

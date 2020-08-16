@@ -2,12 +2,23 @@ import React from "react";
 import Header from "../Header/header";
 import SearchBox from "../searchBox/searchBox";
 import Card from "../card/card";
+import { IRobots } from "../../App";
 
-const Main = ({ onSearchChange, robots, searchField }) => {
+export interface MainProps {
+  onSearchChange(event: React.SyntheticEvent<HTMLInputElement>): void;
+  robots: Array<IRobots>;
+  searchField: string;
+}
+
+const Main: React.FunctionComponent<MainProps> = ({
+  onSearchChange,
+  robots,
+  searchField,
+}): JSX.Element => {
   return (
     <div>
       <Header />
-      <SearchBox setSearchInput={onSearchChange} />
+      <SearchBox onSearchChange={onSearchChange} />
       <div
         style={{
           overflowY: "scroll",

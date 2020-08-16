@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
 import "tachyons/css/tachyons.css"; // Css Library
 
-import { BrowserRouter, Link, NavLink, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 // Redux
 import { Provider } from "react-redux";
@@ -16,11 +16,11 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
       <Switch>
-        <Route path="/" component={App}></Route>
+        <Route path="/" render={() => <App />}></Route>
       </Switch>
     </BrowserRouter>
   </Provider>,
-  document.getElementById("root")
+  document.getElementById("root") as HTMLElement
 );
 
 // For PWA -- register it

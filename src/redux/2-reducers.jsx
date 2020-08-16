@@ -4,7 +4,7 @@ import {
   REQUEST_ROBOTS_FAILED,
   REQUEST_ROBOTS_SUCCESS,
   REQUEST_ROBOTS_PENDING,
-} from "./actionTypes";
+} from "./actionTypes.tsx";
 
 // ----------------------------------------------Reducers 1--------------------------------------------
 

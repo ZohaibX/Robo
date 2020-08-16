@@ -1,4 +1,4 @@
-import * as reducers from "../../redux/2-reducers";
+import * as reducers from "../../redux/2-reducers.jsx";
 
 import {
   CHANGE_SEARCH_FIELD,
